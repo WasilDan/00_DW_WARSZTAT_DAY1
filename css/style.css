@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header, section, footer {
+    display: flex;
+    width: 1352px;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 5px; */
+    background: lightsalmon; /*tymczasowy kolor*/
+        
+}
+ /* ------------------ H E A D E R ------------------ */
+ .headercontainer {
+
+    /* flex-direction: column; */
+
+
+ }
+
+.headerin {
+    display: flex;
+
+    height: 70px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.808);
+    z-index: 999;
+    
+    position: fixed;
+    top: 0px;
+    width: 1352px;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.headerin div {
+
+    justify-content: center;
+}
+
+.logo {
+
+    padding: 0.3125rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 'light';
+    font-size: 2rem;
+    color: #08A6E4;
+    text-decoration: none;
+    margin-left: 70px;
+
+
+}
+
+.nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav_list {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_list li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav_list li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #A5A5A5;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    padding: 25px 10px;
+}
+.nav_list li a:hover {
+    border-bottom: 4px solid #08A6E4;
+    transition: 100ms;
+}
+
+ /* ------------------ B A N N E R ------------------ */
+.bannercontainer {
+    /* margin-top: 70px; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner div:first-of-type {
+    margin-top: 200px;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.banner div h1{
+    font-weight: normal;
+    font-size: 49px;
+    text-align: center;
+    padding: 20;
+}
+.banner div p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 20;
+}
+.banner div a {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 56px;
+    background: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+
+
+    bottom: -28px;
+}
+
+.banner div:last-child {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+}
+
+
+  /* ------------------ S E C T I O N 1------------------ */
+.sec1 div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 4.25rem 0 4.25rem 0;
+    justify-content: center;
+    align-items: center;
+    background: green;
+}
+.sec1 h2 {
+    justify-content: center;
+    font-size: 2.25rem;
+    background: greenyellow;
+}
+.sec1list {
+    width: 100%;
+    background: hotpink;
+    margin: none;
+}
+.sec1list ul{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+background: mediumaquamarine;
+}
+.sec1 li {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: 160px;
+    align-items: center;
+    background: orange;
+}
+.sec1list a {
+    display: flex;
+text-align: center;}
+
+
+  /* ------------------ S E C T I O N  2------------------ */
+
+
+
+
+  /* ------------------ S E C T I O N  3------------------ */
+
+
+  /* ------------------ S E C T I O N  4------------------ */
+
+
+
+ /* ------------------ F O O T E R ------------------ */
